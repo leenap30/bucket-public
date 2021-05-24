@@ -11,7 +11,7 @@ resource "aws_s3_bucket_object" "b1" {
 
   bucket = "awsbucketleena3"
   
-  key    = "profile2"
+  key    = "profile3"
 
   acl    = "public-read"
 
