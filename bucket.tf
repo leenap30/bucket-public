@@ -15,9 +15,9 @@ resource "aws_s3_bucket_object" "b1" {
 
   acl    = "public-read"
 
-  source = "th.jpg"
+  source = "index.html"
 
-  etag = filemd5("th.jpg")
+  etag = filemd5("index.html")
 
 }
 
