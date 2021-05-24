@@ -19,5 +19,5 @@ resource "aws_s3_bucket_object" "b1" {
 
   etag = filemd5("th.jpg")
 
-
+}
 
